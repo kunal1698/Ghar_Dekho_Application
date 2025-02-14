@@ -2,7 +2,11 @@
   "expo": {
     "name": "ghar-app",
     "slug": "ghar-app",
+<<<<<<< HEAD
     "version": "1.0.2",
+=======
+    "version": "1.0.0",
+>>>>>>> origin/master
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -17,14 +21,21 @@
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./assets/images/gdo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.techsolution.gharapp"
+=======
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+>>>>>>> origin/master
     },
     "web": {
       "bundler": "metro",
       "output": "static",
+<<<<<<< HEAD
       "favicon": "./assets/images/gdo.png"
     },
     "plugins": [
@@ -41,6 +52,15 @@
       "router": {
         "origin": false
       }
+=======
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+>>>>>>> origin/master
     }
   }
 }
