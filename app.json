@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ghar-app",
+    "slug": "ghar-app",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/gdo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.techsolution.gharapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/gdo.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d16ea999-c8c7-40ac-a4da-aa47bbdc0b38L"
+      },
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
